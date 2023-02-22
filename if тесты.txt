@@ -1,0 +1,9 @@
+if (N = 19 && K = 3 && a[0] = 5 && a[1] = 4 && a[2] = 10 && tip = 2 && amoint = 4)
+    cout<<"Test 1 passed";
+else
+    cout<<"Test 1 failed";
+    
+if (N = 28 && K = 3 && a[0] = 5 && a[1] = 6 && a[2] = 30 && tip = 1 && amoint = 5)
+    cout<<"Test 2 passed";
+else
+    cout<<"Test 2 failed";
