@@ -2,18 +2,18 @@
 using namespace std;
 int main()
 {
-	int N;
-	int K;
+	long long N;
+	long K;
 	cin >> N >> K;
-	int *a = new int [K];
+	long long *a = new long long [K];
 	for (int i = 0; i < K; i++)
 	{
 		cin >> a[i];
 	}
-	int min;
+	long min;
 	min = N % a[0];
-	int tip = 1;
-	int amount = N/a[0];
+	long tip = 1;
+	long amount = N/a[0];
 	for (int i = 1; i < K; i++)
 	{
 		if (N % a[i] < min)
