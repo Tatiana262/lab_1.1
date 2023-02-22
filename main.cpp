@@ -1,12 +1,11 @@
 #include<iostream>
 using namespace std;
-
 int main()
 {
-	long long N;
-	long K;
+	int N;
+	int K;
 	cin >> N >> K;
-	long long *a = new long long [K];
+	int *a = new int [K];
 	for (int i = 0; i < K; i++)
 	{
 		cin >> a[i];
