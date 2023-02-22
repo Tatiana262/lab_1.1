@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+	setlocale(LC_ALL, "russian");
 	long long N;
 	long K;
 	cin >> N >> K;
@@ -10,10 +11,10 @@ int main()
 	{
 		cin >> a[i];
 	}
-	long min;
+	long long min;
 	min = N % a[0];
 	long tip = 1;
-	long amount = N/a[0];
+	long long amount = N/a[0];
 	for (int i = 1; i < K; i++)
 	{
 		if (N % a[i] < min)
